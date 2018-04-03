@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# this will rename give file name to new file name
+
+echo "please provide file name to rename"
+read "given_name"
+echo "please type new name"
+read "new_name"
+mv $given_name $new_name
+echo "your file $given_name has been renamed to $new_name"

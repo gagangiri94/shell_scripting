@@ -1,0 +1,14 @@
+#!/bin/bash
+# setting positional parameters from a text file with reverse quotes `````
+# this script will rename a file name with the login name of user
+# set `cat changed` # changed is file name here and set is a command to set
+# positional parameters - we are ot using this in this script.
+
+name=$1
+set `who am i`
+mv $name $name.$1
+ls
+
+
+
+

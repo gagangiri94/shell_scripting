@@ -1,0 +1,12 @@
+#!/bin/bash
+tput clear screen
+echo "Total no of rows are \c"
+tput lines
+
+echo "Total no of collumns are \c"
+tput cols
+ tput cup 15 20 
+
+tput bold
+echo "this is bold text"
+echo "\033[0m  BYe BYE"

@@ -1,0 +1,7 @@
+#!/bin/bash
+# it works in only sh not in bash
+echo "hello, \n Whats up?"  # for displaying in next line
+echo "hello, \r Whats up?"  # reverse order
+echo "hello, \t Whats up?" # 5 spaces(tab)
+echo "hello,\b\b\b\b Whats up?" # remove one word previous, depends onnumber "\n"
+echo "hello, \033[1m Whats up?\033[0m" # for bold letters   7m for black background

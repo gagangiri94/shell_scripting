@@ -31,7 +31,7 @@ if [[ $pass_opt = Y || $pass_opt = y ]]; then
   echo -e "Need sudo privileges for this user? \n Y/N"
   read sudo_opt
   if [[ $sudo_opt = Y || $sudo_opt = y ]]; then
-    echo "'$user_name' ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+    echo "$user_name ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
              if [[ $? -eq 0 ]]; then
                 echo "Successfully provided sudo privileges and no password access"
